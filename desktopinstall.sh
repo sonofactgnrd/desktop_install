@@ -34,6 +34,8 @@ sudo apt install neofetch
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 #ohmyposh no theme
+cd ~
+mkdir bin
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl -s https://ohmyposh.dev/install.sh | sudo bash -s -- -d ~/bin
 oh-my-posh font install OpenDyslexic
