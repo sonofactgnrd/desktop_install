@@ -13,10 +13,6 @@ sudo apt install brave-browser
 # install git
 sudo apt install git
 
-#remove firefox
-sudo snap remove firefox
-sudo apt purge firefox
-
 #install nvim and remove nano
 sudo snap install nvim --classic
 sudo apt remove nano
@@ -41,13 +37,6 @@ mkdir bin
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl -s https://ohmyposh.dev/install.sh | sudo bash -s -- -d ~/bin
 oh-my-posh font install OpenDyslexic
-
-#discord
-cd ~/Downloads/
-curl -fsSL "https://discord.com/api/download?platform=linux&format=deb"
-sudo dpkg -i discord-*.deb
-sudo apt-get install -f
-cd ~
 
 #hyprland
 cd ~
